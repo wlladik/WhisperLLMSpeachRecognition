@@ -1,0 +1,110 @@
+[0.03096875 - 12.771593750000001]
+WHISPER:        Na co nam szkoda pieniędzy? Małorginalne, ale subskrypcje, kiedy przychodzi mi rachunek ze Spotify czy pamięć w Apple, czy się okradana. Jakim prawie bez wyzażadne.
+FASTER WHISPER: Na co nam szkoda pieniędzy, ma oryginalne, ale subskrypcje, kiedy przychodzi mi rachunek ze Spotify, czy pamięci w Apple, czy się okradala.
+SIMILARITY:     0.865
+
+[10.93221875 - 16.68659375]
+WHISPER:        Jakim prawie, bo to jest żadne subskrypcje, wszystko co nam to o mamtenki, ma mi rodzić, sam dziękuję wam.
+FASTER WHISPER: Jakim prawego.
+SIMILARITY:     0.217
+
+[16.68659375 - 20.65221875]
+WHISPER:        Tu leczka to tutaj mam ośsisów, ale ja... A kogo mamy tu leczka?
+FASTER WHISPER: Nie bo jest za żadne subskrypcje. Wszystko co nam to mam, dzięki, mają rodzicom, dziękuję wam.
+SIMILARITY:     0.266
+
+[17.96909375 - 18.03659375]
+WHISPER:        
+FASTER WHISPER: Zureczka to tu się im a musi superić.
+SIMILARITY:     0.0
+
+[18.762218750000002 - 35.603468750000005]
+WHISPER:        A kogo ma być córeczka? Mi bardzo szkoda pieniędzy na wszystkie uswugi beauty. Na paznokcie narzęcy dlatego nie małnik z zrybanych paznokc i przez kogoś czy przedłużonych ewentualni są o sobie robię hybrydę. No i wam dwa razy na rzęsach i na razie nie planuje jeść. Woli to mój port.
+FASTER WHISPER: A kogo ma więc Cureczka?
+SIMILARITY:     0.117
+
+[35.603468750000005 - 44.024093750000006]
+WHISPER:        To jest kolejna rzecz, to jest case do telefonu, ogólnikiś taki itm do telefonu, typu szybki. No, kosztu jest to złoty, a i twój telefon, że się...
+FASTER WHISPER: Miej bardzo szkoda pieniędzy na wszystkie uswugi beauty.
+SIMILARITY:     0.197
+
+[40.85159375 - 41.15534375]
+WHISPER:        
+FASTER WHISPER: Na paznokcie narzęcy, dlatego nie mam nigdy zdrywanych paznokci przez kogoś, czy przedłużonych,
+SIMILARITY:     0.0
+
+[42.85971875 - 64.42596875000001]
+WHISPER:        A i tu telefa może się zbić w każdym momencie, jest bardzo biednej narazone na obicia. Trochę mieszkoda na moj dziecko. A i fala. Mysteś najgorszym matką? Mhm. Miszkoda na nowe ciuchy. Lume peksy są super. Nie dam rady psychicznie zapłacić 50 zł za bluskę. Lume peksy rozpuszczają. Płacić 100% zł za spodnie. Nie zrobię tego przykromi. Jak zrobię to bardzo będzie mnie to baleć.
+FASTER WHISPER: ewentualnie są o sobie robię hybrydę. No i wam dwa razy narzęcach i na razie nie planuję jeść.
+SIMILARITY:     0.161
+
+[45.55971875 - 46.234718750000006]
+WHISPER:        Bardzo biednej na...
+FASTER WHISPER: Bo oni to mój portwy.
+SIMILARITY:     0.341
+
+[61.540343750000005 - 61.91159375]
+WHISPER:        
+FASTER WHISPER: Kolejna rzecz to jest case do telefonu, ogólnie jakiś taki itm do telefonu.
+SIMILARITY:     0.0
+
+[64.42596875000001 - 78.56721875000001]
+WHISPER:        Kolejną rzeczą są żyletki. Nie cierpię wydawać na żyletki do golenia. Szczególnie żeterużowe, damskie są trzy razy droższy niż męskie. To nie ma sensu. To jest ozaru sowa. Za co się płaci za koloru różowy? Ludzie.
+FASTER WHISPER: Typu szybki.
+SIMILARITY:     0.053
+
+[73.40346875 - 75.85034375000001]
+WHISPER:        To nie ma sensu. To jest owarusza owarza.
+FASTER WHISPER: No kosztu jest to złoty.
+SIMILARITY:     0.431
+
+[77.87534375 - 95.52659375]
+WHISPER:        Tak, Sary się kości zagorzamy w tych rzeczach tylko i wyłącznie. Nie ode mnie ostatnie to jest wirzutaria, bo wiem, że to jest taki typowo babski prezent i że pewnie i tak dostanę to albo na urodzinę, albo na święta, albo na szosie, bo więc nie będę na to wydawać dużo pieniędzy i na pewno nie u Jubidera. Bo to się dostaje na prezent, tego się nie kupuję samemu.
+FASTER WHISPER: A to jest szkoda.
+SIMILARITY:     0.079
+
+[94.09221875 - 94.22721875]
+WHISPER:        
+FASTER WHISPER: A może się zbić w każdym momencie?
+SIMILARITY:     0.0
+
+[95.52659375 - 102.52971875]
+WHISPER:        i ostatnie doładowanie na jak dojadę znowu nie okrawej się doładowanie na telefon to co to jest?
+FASTER WHISPER: Jest bardzo biedny i narazony na obicia.
+SIMILARITY:     0.132
+
+[99.08721875 - 99.89721875000001]
+WHISPER:        nie on go teraz
+FASTER WHISPER: Trochę mi szkoda na mojej dziecko.
+SIMILARITY:     0.163
+
+[104.03159375000001 - 104.06534375000001]
+WHISPER:        
+FASTER WHISPER: Na telefonu.
+SIMILARITY:     0.0
+
+[104.74034375000001 - 104.94284375000001]
+WHISPER:        
+FASTER WHISPER: Mysteś najgorszym matką?
+SIMILARITY:     0.0
+
+[106.73159375 - 113.70096875]
+WHISPER:        Eee, naprawdę, jak dojede mi okrada. Ja zdołatowałam sobie, jak dojede za 40 zł, bo myślałam, że bo nich są co coś kliknąłem.
+FASTER WHISPER: Misz koda na nowe ciuchy.
+SIMILARITY:     0.133
+
+[111.70971875000001 - 112.14846875]
+WHISPER:        to o twojej.
+FASTER WHISPER: Elumpeksy są super.
+SIMILARITY:     0.258
+
+[113.70096875 - 121.29471875]
+WHISPER:        Tak imię, ból. Nie, dla mnie to jest w ogóle, że pięć co o tych trzeba doładować. To jest za to, że kupię cała w sobie mieszkanie, do. A bym mi to zawieracie.
+FASTER WHISPER: Nie dam rady psychicznie zapłacić 50 zł za bluskę.
+SIMILARITY:     0.24
+
+[121.29471875 - 125.37846875000001]
+WHISPER:        Zwagnamy się z wami jako odwizłupowy to tylko my
+FASTER WHISPER: Elumpeksy rozpuszczają.
+SIMILARITY:     0.197
+

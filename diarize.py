@@ -2,7 +2,7 @@ from pyannote.audio import Pipeline
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Loading .env file
+load_dotenv()  # Loading .env.example file
 hf_token = os.getenv("HUGGINGFACE_TOKEN")
 
 
