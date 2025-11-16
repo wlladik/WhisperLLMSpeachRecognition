@@ -10,7 +10,7 @@ from tqdm import tqdm  # Progress
 # ---------- Settings ----------
 INPUT_FOLDER = "data/audio/"
 OUTPUT_FOLDER = "outputs/whisper_batch/"
-HUGGINGFACE_TOKEN = "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"
+HUGGINGFACE_TOKEN = ""
 WHISPER_MODEL = "large"
 LANGUAGE = "pl"
 # ----------------------------------
