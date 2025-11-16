@@ -15,10 +15,9 @@ def run_diarization(audio_path):
     )
 
     diarization = pipeline(audio_path)
-    os.makedirs("outputs", exist_ok=True)  # Створює папку, якщо не існує
+    os.makedirs("outputs", exist_ok=True)
     with open("outputs/diarization.rttm", "w") as f:
         diarization.write_rttm(f)
 
 
-# Example
 run_diarization("data/audio/audio.wav")

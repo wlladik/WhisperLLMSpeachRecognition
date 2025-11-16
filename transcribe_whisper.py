@@ -10,20 +10,20 @@ import whisper
 AUDIO_PATH = "data/audio/audio.wav"
 OUTPUT_PATH = "outputs/whisper/segments_transcribed.json"
 HUGGINGFACE_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
-WHISPER_MODEL = "large"  # "medium", "large"
+WHISPER_MODEL = "small"  # "medium", "large"
 LANGUAGE = "pl"
 # -----------------------------------
 
 
 def diarize_audio(audio_path):
-    print("🔍 Diarization...")
+    print("Diarization...")
     pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization", use_auth_token=HUGGINGFACE_TOKEN)
     diarization = pipeline(audio_path)
     return diarization
 
 
 def extract_segments(diarization, audio_path, tmp_dir):
-    print("✂️ Cutting on segments...")
+    print("Cutting on segments...")
     audio = AudioSegment.from_wav(audio_path)
     segments = []
     for turn, _, speaker in diarization.itertracks(yield_label=True):
@@ -42,7 +42,7 @@ def extract_segments(diarization, audio_path, tmp_dir):
 
 
 def transcribe_segments(segments, model_name, language):
-    print("🧠 Loading Whisper...")
+    print("Loading Whisper...")
     model = whisper.load_model(model_name)
     results = []
     for seg in segments:
@@ -57,7 +57,7 @@ def transcribe_segments(segments, model_name, language):
 
 
 def save_results_json(results, output_path):
-    print(f"💾 Saving results in {output_path} (JSON)...")
+    print(f"Saving results in {output_path} (JSON)...")
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
@@ -69,7 +69,7 @@ def main():
         segments = extract_segments(diarization, AUDIO_PATH, tmp_dir)
         results = transcribe_segments(segments, WHISPER_MODEL, LANGUAGE)
         save_results_json(results, OUTPUT_PATH)
-    print("✅ Done!")
+    print("Done!")
 
 
 if __name__ == "__main__":

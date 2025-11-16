@@ -3,7 +3,7 @@ import json
 
 WHISPER_PATH = "outputs/whisper/segments_transcribed.json"
 FAST_WHISPER_PATH = "outputs/fastwhisper/segments_transcribed.json"
-MERGED_OUTPUT = "outputs/final_merged/merged_result.json"
+MERGED_OUTPUT = "outputs/final_merged/merged_result1.json"
 
 
 def load_json(path):
@@ -36,7 +36,7 @@ def main():
     fast_data = load_json(FAST_WHISPER_PATH)
     merged = merge_segments(whisper_data, fast_data)
     save_json(merged, MERGED_OUTPUT)
-    print(f"✅ Saved to {MERGED_OUTPUT}")
+    print(f"Saved to {MERGED_OUTPUT}")
 
 
 if __name__ == "__main__":

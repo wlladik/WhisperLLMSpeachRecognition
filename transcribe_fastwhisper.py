@@ -21,7 +21,7 @@ def transcribe_fast_whisper(audio_path, output_path, model_size="base"):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Transcription saved to {output_path}")
+    print(f"Transcription saved to {output_path}")
 
 
 if __name__ == "__main__":
